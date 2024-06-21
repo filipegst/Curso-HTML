@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 1em;
+}
+
+h1{
+    font: italic bolder 3em sans-serif
+
+}
+h2{
+    font: bold 2em sans-serif
+}
