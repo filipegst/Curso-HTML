@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+
+}
+
+#principal{
+    font-size: 3em;
+    text-align: center;
+}
+
+.titulo{
+    color: brown;
+}
+
+.subtitulo{
+    color: green;
+}
+
+h1{
+    font-style: italic ;    
+    }
+
+.destaque{
+    background-color: wheat;
+}    

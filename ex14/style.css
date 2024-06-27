@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body{
+    font: 2em sans-serif;
+}
+.div{ 
+    display: inline-block;
+    text-align: center;
+    border: 2px solid rgba(0, 195, 255, 0.459);
+    height: 50px;
+    width: 200px;
+    background-color: rgb(216, 252, 252);
+    
+}
+    div > p{ 
+        display: none;
+    }
+
+    div:hover > p{
+        background-color: aqua;
+        border: 2px solid rgb(0, 68, 255);
+        
+        display: block;
+    }
+    
+    .div:hover {
+    background-color: aqua;
+    }
+
+    a:visited{
+        color: rgb(156, 78, 219);
+        text-decoration: none;
+
+
+
+    }
+
+    a {
+        color: rgb(0, 174, 255);
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color: blue;
+        font-weight: bolder;
+    }
+
+    a::after {
+        font-size: 0.8em;
+        content: '🠔';
+    }
+    
+    a::before {
+        font-size: 0.8em;
+        content: '🠖';
+    }

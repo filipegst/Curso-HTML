@@ -1,0 +1,108 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: "android";
+    src: url(fontes/idroid.otf);
+}
+header{
+    width:auto;
+    background-color: aquamarine;
+    background: linear-gradient(0deg, rgba(2,89,81,1) 0%, rgba(12,242,93,1) 100%);
+    ;
+
+}
+
+header >h1 {
+    text-align: center;
+    font: bolder 3em sans-serif;
+    margin: auto;
+    color: #e5e5e5;
+    text-shadow: 1px 1px 2px black;
+
+    
+}
+
+header > h3{
+    text-align: center;
+    font: 1.5em sans-serif;
+    color: #e5e5e5
+}
+
+nav > a {
+    text-decoration: none;
+    color: #e5e5e5;
+    font:  bold 1.3em sans-serif  ;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 15px;
+}
+
+body{
+    background-color: #0CF25D;
+}
+
+h1{
+    font-family: "android";
+    color: #02731a;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+
+}
+h2{
+    font-family: "android";
+    background-color: #0CF25D;
+    background: linear-gradient(to right, #038c3e70 , #e5e5e5 );
+    color: #02731a;
+    text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.493);
+}
+
+img{
+width:max-content;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+main{
+    width:70%;
+    background-color: #e5e5e5;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.637);
+}
+footer{
+    background-color: #02735E;
+    font: 1em sans-serif;
+    color: #e5e5e5;
+    text-align: center;
+}
+aside{
+    background-color: #0cf25d69;
+    font: bold 1em sans-serif;
+    text-align: center;
+    padding-bottom: 2px;
+}
+aside > h4 {
+    background-color: #025951;
+    font: 1.5em sans-serif;
+    color: #e5e5e5;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Closeup-shot-of-a-hard-soap-with-bubbles-and-beautiful-color-textures-1-hex { color: #034159; }
+.Closeup-shot-of-a-hard-soap-with-bubbles-and-beautiful-color-textures-2-hex { color: #025951; }
+.Closeup-shot-of-a-hard-soap-with-bubbles-and-beautiful-color-textures-3-hex { color: #02735E; }
+.Closeup-shot-of-a-hard-soap-with-bubbles-and-beautiful-color-textures-4-hex { color: #038C3E; }
+.Closeup-shot-of-a-hard-soap-with-bubbles-and-beautiful-color-textures-5-hex { color: #0CF25D; }
+
+

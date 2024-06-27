@@ -1,15 +1,24 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+@font-face {
+    font-family: 'yamakada';
+    src: url(fonts/Yamaka.otf);
+
+}
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     font-size: 1em;
+    text-indent: 10px;
 }
 
 h1{
-    font: italic bolder 3em sans-serif
-
+    font: italic bolder 3em Playwrite NG Modern, sans-serif;
+    text-align: center;
 }
 h2{
-    font: bold 2em sans-serif
+    font: bold 2em yamakada, sans-serif
 }
