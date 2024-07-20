@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+</head>
+<body>
+    
+<form action="cadastro.php" method="post">
+    <fieldset>
+        <legend>Soma</legend>
+        <p>
+            <label for="n1">Numero 1:</label>
+            <input type="number" name="num1" id="n1" min="0" max="100" value="0" required
+            oninput="isoma.innerHTML = Number(n1.value) + Number(n2.value)"
+            >
+        </p>
+        
+        <p>
+            <label for="n2">Numero 2:</label>
+            <input type="number" name="num2" id="n2" min="0" max="100" value="0" required
+            oninput="isoma.innerHTML = Number(n1.value) + Number(n2.value)"
+            >
+        </p>
+        
+        
+        
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma" > 0 </output>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Subtração</legend>
+        <p>
+            <label for="s1">Numero 1:</label>
+            <input type="number" name="sub1" id="s1" min="0" max="100" value="0" required
+            oninput="isub.innerHTML = Number(s1.value) - Number(s2.value)"
+            >
+        </p>
+        
+        <p>
+            <label for="s2">Numero 2:</label>
+            <input type="number" name="sub2" id="s2" min="0" max="100" value="0" required
+            oninput="isub.innerHTML = Number(s1.value) - Number(s2.value)"
+            >
+        </p>
+        
+        
+        
+        <p>
+            <label for="isub">Subtração:</label>
+            <output name="sub" id="isub" > 0 </output>
+        </p>
+    </fieldset>
+    
+    <p>
+        <label for="ival">Numero</label>
+        <input type="range" name="val" id="ival"
+        oninput="ires.innerHTML = Number(ival.value)"
+        >
+        <output id="ires"> 50 </output>
+    </p>
+
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
