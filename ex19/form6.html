@@ -64,8 +64,33 @@
         <output id="ires"> 50 </output>
     </p>
 
+
+    <p>
+        <label for="iano">Qual é o ano do seu nascimento</label>
+        <input type="number" name="ano" id="iano" max="2024" 
+        oninput="calcIdade()">
+       
+    </p>
+
+    <p>
+        <label for="iIdade">Sua idade é:</label>
+        <output id="iIdade">0</output>
+    </p>
+
+
     <input type="submit" value="Enviar">
+
+
+  
 </form>
+
+<script>
+    function calcIdade(){
+        let atual = new Date().getFullYear()
+        iIdade.innerHTML = Number(atual) - Number(iano.value)     
+    }
+
+</script>
 
 </body>
 </html>
