@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+
+        div.container{
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 400px;
+            align-items: flex-start;
+
+        }
+
+        div.item{
+            background-color: aqua;
+            border: 1px solid rgba(0, 0, 0, 0.87);
+            text-align: center;
+            padding: 5px;
+            flex-basis: 100px;
+        
+        }
+
+        div#itemF{
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" style="order: 1;">A</div>
+        <div class="item" >B</div>
+        <div class="item" style="align-self: self-end;">C</div>
+        <div class="item" style="order: 2; align-self: stretch;" >D</div>
+        <div class="item">Conteudo maior pra testar flex-basis e suas funcionalidades</div>
+        <div class="item" id="itemF">F</div>
+    </div>
+</body>
+</html>
